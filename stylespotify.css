@@ -1,0 +1,378 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding-left: 10px;
+}
+.side-bar{
+
+    width: 320px;
+    border-radius: 1rem;
+}
+
+.nav{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(42, 40, 40);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.home{
+    height: 30px;    
+    padding: 10px;
+    color: white;
+    opacity: 0.7;
+}
+.search{
+    height: 31px;    
+    padding: 10px;
+    color: white;
+    opacity: 0.7;
+}
+.nav i{
+    padding-left: 15px;
+}
+.nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.home:hover{
+    opacity: 1;
+}
+.search:hover{
+    opacity: 1;
+}
+.library{
+    width: 300px;
+    height: 100%;
+    background-color: rgb(42, 40, 40) ;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.option{
+    width: 300px;
+    height: 1rem;
+    margin-left: 25px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    display: flex;
+}
+.lib-option{
+    width: 200px;
+    opacity: 0.7;
+}
+.lib-option:hover{
+    opacity: 1;
+}
+.icons{
+    opacity: 0.7;
+}
+.icons:hover{
+    opacity: 1;
+}
+.icon{
+    width: 300px;
+    height: 20px;
+    margin-top: 0.5rem;
+    margin-left: 25px;
+    border-radius: 10px;
+    display: flex;
+}
+.option a {
+    color: white;
+    text-decoration: none;
+}
+.create{
+    width: 250px;
+    height: 130px;
+    margin-left: 1.5rem;
+    background-color: rgb(78, 73, 73) ;
+    border-radius: 10px;
+}
+.create h4{
+    margin-left: 10px ;
+    padding-top:1rem;
+}
+.create p{
+    margin-left: 10px;
+}
+.create button{
+    height: 25px;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+}
+.badges a{
+    color: black;
+    text-decoration: none;
+}
+.podcasts{
+    width: 250px;
+    height: 170px;
+    margin-left: 1.5rem;
+    background-color: rgb(78, 73, 73) ;
+    border-radius: 10px;
+}
+.podcasts h4{
+    margin-left: 10px ;
+    padding-top: .5rem;
+}
+.podcasts p{
+    margin-left: .5rem;
+}
+.badges{
+    height: 25px;
+    margin-left: 1.5rem;
+    border-radius: 15px;
+}
+.podcasts button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.main-content{
+    /*background-color: #121212;  color ko remove krna h  */
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    /* margin-left: 10px; */
+    /* padding:  0 1.5rem 0 1.5rem; */
+}
+.arrow1{
+    width: 1rem;
+    height: 1rem;
+    /* padding: 0.5rem 1rem; */
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.arrow{
+    width: 1rem;
+    height: 1rem;
+    /* padding: 0.5rem 1rem; */
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.badges1{
+    width: 8rem;
+    height: 2rem;
+}
+.badges2{
+    width: 8rem;
+    height: 2rem;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+    margin-left: 1rem;
+    z-index: 10;
+    border-bottom-left-radius: .7rem;
+}
+.nav-icon{
+    justify-content: left;
+}
+.nav-option{
+    margin-right: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+.badges1{
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.badges1 a{
+    text-decoration: none;
+}
+.badges2{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+}
+.badges2 i{
+    color: white;
+    padding-right: 0.5rem;
+}
+.badges2 a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    padding-left: 1.5rem;
+}
+@media(max-width:800px){
+    .arrow1{
+        display: none;
+    }
+    .badges1{
+        display: none;
+    }
+}
+.card{
+    background-color: #2a2a2a;
+    width: 150px;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.card-container{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600px;
+}
+.card-info{
+    font-size: 0.8  5rem;
+    opacity: 0.7;
+}
+.card-info:hover{
+    opacity: 1;
+}
+.card-img:hover{
+    transform: scale(1.10);
+}
+.card-new{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: #2a2a2a;
+    width: 150px;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 1rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.cards2{
+    display: flex;
+    /* padding-top: 1rem; */
+}
+
+
+.footer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.player{
+    width: 50%;
+    height: 50px;
+}
+
+.palyer-control img{
+    height: 1.1rem;
+    margin-right: 2.25rem;
+    justify-content: center;
+    opacity: 0.7;
+}
+.palyer-control{
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playback-bar{
+    height: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.palyer-control img:hover{
+    opacity: 1;
+}
+.progress-bar{
+    width: 60%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 20%;
+    height: 0.2rem;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -0.45rem;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+}
+.recent{
+    width: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.album i{
+    width: 1rem;
+    margin-left: 1rem ;
+    align-items: center;
+}
+.iii{
+    margin-left:  2rem;
+    margin-top: 1.5rem;
+}
+.album p{
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.control{
+    width: 25%;
+}
+.control i{
+    margin-left: .5rem;
+    height: 1rem;
+    opacity: .7;
+}
+.control i:hover{
+    opacity: 1;
+    cursor: pointer;
+}
